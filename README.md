@@ -13,11 +13,11 @@
 
 ## Get Started
 
-1. Install Ruby: `sudo apt install ruby ruby-dev`
-2. Install Bundler globally: `sudo gem install bundler --no-user-install`
-3. Clone the repo, and cd repo code
+1. Install Ruby and dep: `sudo apt install ruby ruby-dev build-essential`
+2. Install Bundler globally: `sudo gem install bundler --no-user-install -v 2.1.4`
+3. Clone the repo: `git clone https://github.com/hacker-len/hacker-len.github.io.git`, and cd repo code: `cd hacker-len.github.io/`
 4. Install dependencies: `sudo bundle install`. (You may want to change the gem source first: `sudo gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/`)
-5. Launch the project from local server: `sudo bundle exec jekyll serve`
+5. Launch the project from local server: `sudo bundle exec jekyll serve -H 0.0.0.0`
 6. Visit `http://127.0.0.1:4000`
 
 ## 感谢
